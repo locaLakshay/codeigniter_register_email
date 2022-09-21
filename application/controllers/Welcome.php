@@ -18,6 +18,8 @@ class Welcome extends CI_Controller {
 	 * map to /index.php/welcome/<method_name>
 	 * @see https://codeigniter.com/user_guide/general/urls.html
 	 */
+
+	//  this is the main changes to show the pull push command in git using visual studio
 	public function index()
 	{
 		$this->load->view('welcome_message');
